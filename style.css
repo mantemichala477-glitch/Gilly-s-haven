@@ -1,29 +1,135 @@
-style="--delay:.1s">
-          <div class="service-icon">🎂</div>
-          <h3>Birthday Parties</h3>
-          <p>Children's parties with bouncy castles, adult milestone celebrations — all catered for.</p>
-        </a>
-        <a href="menu.html#corporate" class="service-card" data-animate="fade-up" style="--delay:.2s">
-          <div class="service-icon">🏢</div>
-          <h3>Corporate Events</h3>
-          <p>Conferences, team outings, product launches in a refreshing outdoor setting.</p>
-        </a>
-        <a href="menu.html#babyshower" class="service-card" data-animate="fade-up" style="--delay:.3s">
-          <div class="service-icon">👶</div>
-          <h3>Baby Showers</h3>
-          <p>Welcome new life in a beautiful, serene garden filled with joy and natural light.</p>
-        </a>
-        <a href="menu.html#funfair" class="service-card" data-animate="fade-up" style="--delay:.4s">
-          <div class="service-icon">🎡</div>
-          <h3>Fun Fairs & Carnivals</h3>
-          <p>Rentals of bouncy castles, carnival games and party equipment — all in one stop.</p>
-        </a>
-        <a href="menu.html" class="service-card service-card--more" data-animate="fade-up" style="--delay:.5s">
-          <div class="service-icon">✨</div>
-          <h3>& Much More</h3>
-          <p>Engagements, naming ceremonies, reunions — if you're celebrating, we're ready.</p>
-        </a>
-      </div>
-    </div>
-  </section>
- 
+/* RESET /
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/ BODY /
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/ HEADER /
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8c6b3f;
+}
+
+/ NAV /
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/ ================= HOME PAGE (FIXED) ================= /
+.home-hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('event-bg.jpg') no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/ THIS FIXES YOUR TEXT PROBLEM /
+.home-hero-content {
+    color: white;
+    max-width: 600px;
+    animation: fadeUp 1.5s ease;
+}
+
+.home-hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.home-hero-content p {
+    margin-bottom: 20px;
+}
+
+/ BUTTON /
+.btn {
+    background: #8c6b3f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/ ================= OTHER PAGES ================= /
+
+/ ABOUT /
+.about {
+    padding: 60px;
+    text-align: center;
+}
+
+/ GALLERY /
+.gallery {
+    padding: 60px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+}
+
+/ MENU /
+.menu {
+    padding: 60px;
+}
+
+.menu-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/ CONTACT /
+.contact {
+    padding: 60px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/ FOOTER /
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/ ================= ANIMATION ================= */
+@keyframes fadeUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
