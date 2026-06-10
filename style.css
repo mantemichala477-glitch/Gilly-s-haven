@@ -1,0 +1,29 @@
+style="--delay:.1s">
+          <div class="service-icon">🎂</div>
+          <h3>Birthday Parties</h3>
+          <p>Children's parties with bouncy castles, adult milestone celebrations — all catered for.</p>
+        </a>
+        <a href="menu.html#corporate" class="service-card" data-animate="fade-up" style="--delay:.2s">
+          <div class="service-icon">🏢</div>
+          <h3>Corporate Events</h3>
+          <p>Conferences, team outings, product launches in a refreshing outdoor setting.</p>
+        </a>
+        <a href="menu.html#babyshower" class="service-card" data-animate="fade-up" style="--delay:.3s">
+          <div class="service-icon">👶</div>
+          <h3>Baby Showers</h3>
+          <p>Welcome new life in a beautiful, serene garden filled with joy and natural light.</p>
+        </a>
+        <a href="menu.html#funfair" class="service-card" data-animate="fade-up" style="--delay:.4s">
+          <div class="service-icon">🎡</div>
+          <h3>Fun Fairs & Carnivals</h3>
+          <p>Rentals of bouncy castles, carnival games and party equipment — all in one stop.</p>
+        </a>
+        <a href="menu.html" class="service-card service-card--more" data-animate="fade-up" style="--delay:.5s">
+          <div class="service-icon">✨</div>
+          <h3>& Much More</h3>
+          <p>Engagements, naming ceremonies, reunions — if you're celebrating, we're ready.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+ 
